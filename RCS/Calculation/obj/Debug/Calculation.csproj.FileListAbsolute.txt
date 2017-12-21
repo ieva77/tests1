@@ -1,0 +1,7 @@
+C:\Users\user\Desktop\tests10\tests1\RCS\Calculation\bin\Debug\Calculation.exe.config
+C:\Users\user\Desktop\tests10\tests1\RCS\Calculation\bin\Debug\Calculation.exe
+C:\Users\user\Desktop\tests10\tests1\RCS\Calculation\bin\Debug\Calculation.pdb
+C:\Users\user\Desktop\tests10\tests1\RCS\Calculation\obj\Debug\Calculation.csprojResolveAssemblyReference.cache
+C:\Users\user\Desktop\tests10\tests1\RCS\Calculation\obj\Debug\Calculation.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\tests10\tests1\RCS\Calculation\obj\Debug\Calculation.exe
+C:\Users\user\Desktop\tests10\tests1\RCS\Calculation\obj\Debug\Calculation.pdb
