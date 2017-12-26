@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{935D84B9-5065-47FA-BF22-8983FF67606F}</ProjectGuid>
+    <ProjectGuid>{027E152A-3FCF-4B97-A765-2C7D22E8644E}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>SmaterCalculator</RootNamespace>
-    <AssemblyName>SmaterCalculator</AssemblyName>
+    <RootNamespace>tests22</RootNamespace>
+    <AssemblyName>tests22</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -42,7 +42,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="MathParser.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

@@ -1,0 +1,7 @@
+C:\Users\user\Desktop\tests10\tests1\RCS\tests22\bin\Debug\tests22.exe.config
+C:\Users\user\Desktop\tests10\tests1\RCS\tests22\bin\Debug\tests22.exe
+C:\Users\user\Desktop\tests10\tests1\RCS\tests22\bin\Debug\tests22.pdb
+C:\Users\user\Desktop\tests10\tests1\RCS\tests22\obj\Debug\tests22.csprojResolveAssemblyReference.cache
+C:\Users\user\Desktop\tests10\tests1\RCS\tests22\obj\Debug\tests22.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\tests10\tests1\RCS\tests22\obj\Debug\tests22.exe
+C:\Users\user\Desktop\tests10\tests1\RCS\tests22\obj\Debug\tests22.pdb
