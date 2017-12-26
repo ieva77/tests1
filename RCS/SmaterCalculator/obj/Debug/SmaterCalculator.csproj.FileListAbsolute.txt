@@ -1,0 +1,2 @@
+C:\Users\user\Desktop\tests10\tests1\RCS\SmaterCalculator\obj\Debug\SmaterCalculator.csprojResolveAssemblyReference.cache
+C:\Users\user\Desktop\tests10\tests1\RCS\SmaterCalculator\obj\Debug\SmaterCalculator.csproj.CoreCompileInputs.cache

@@ -1,0 +1,15 @@
+C:\Users\user\Desktop\tests10\tests1\RCS\Buylist01\bin\Debug\Buylist01.exe.config
+C:\Users\user\Desktop\tests10\tests1\RCS\Buylist01\bin\Debug\Buylist01.exe
+C:\Users\user\Desktop\tests10\tests1\RCS\Buylist01\bin\Debug\Buylist01.pdb
+C:\Users\user\Desktop\tests10\tests1\RCS\Buylist01\obj\Debug\Buylist01.csprojResolveAssemblyReference.cache
+C:\Users\user\Desktop\tests10\tests1\RCS\Buylist01\obj\Debug\MainWindow.g.cs
+C:\Users\user\Desktop\tests10\tests1\RCS\Buylist01\obj\Debug\App.g.cs
+C:\Users\user\Desktop\tests10\tests1\RCS\Buylist01\obj\Debug\Buylist01_MarkupCompile.cache
+C:\Users\user\Desktop\tests10\tests1\RCS\Buylist01\obj\Debug\Buylist01_MarkupCompile.lref
+C:\Users\user\Desktop\tests10\tests1\RCS\Buylist01\obj\Debug\MainWindow.baml
+C:\Users\user\Desktop\tests10\tests1\RCS\Buylist01\obj\Debug\Buylist01.g.resources
+C:\Users\user\Desktop\tests10\tests1\RCS\Buylist01\obj\Debug\Buylist01.Properties.Resources.resources
+C:\Users\user\Desktop\tests10\tests1\RCS\Buylist01\obj\Debug\Buylist01.csproj.GenerateResource.Cache
+C:\Users\user\Desktop\tests10\tests1\RCS\Buylist01\obj\Debug\Buylist01.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\tests10\tests1\RCS\Buylist01\obj\Debug\Buylist01.exe
+C:\Users\user\Desktop\tests10\tests1\RCS\Buylist01\obj\Debug\Buylist01.pdb

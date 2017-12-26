@@ -13,33 +13,33 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace Bylist
+namespace Buylist01
 {
-    /// <summary>
+    using System.Collections.ObjectModel;
+    /// <summary> 
     /// Interaction logic for MainWindow.xaml
     /// </summary>
     public partial class MainWindow : Window
     {
+        public ObservableCollection<string> BuyItemsList = new ObservableCollection<string>();
+
         public MainWindow()
         {
             InitializeComponent();
 
             BuyListItemName.Text = "Lūdzu ievadiet pirkumu";
-        }
+            BuyItemsList.Add("Āboli");
+            BuyItemsList.Add("Bumbieri");
 
-        private void BuyListItemName_TextChanged(object sender, TextChangedEventArgs e)
-        {
+            BuyItemsListControl.ItemsSource = BuyItemsList;
         }
 
         private void AddListItemButton_Click(object sender, RoutedEventArgs e)
         {
-            // izvelkam vērību no teksta lauka
-            string input = this.BuyListItemName.Text;
-            // nodzēšam vērtību teksta laukā
-            this.BuyListItemName.Text = "";
+            string enteredItemToBuy = BuyListItemName.Text;
+            BuyListItemName.Text = "";
 
-            // Ierakstam vērību teksta blokā
-            this.BuyListItemName.Text = input;
+            BuyItemsList.Add(enteredItemToBuy);
         }
     }
 }

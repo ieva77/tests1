@@ -12,7 +12,7 @@ namespace tests22
         static void Main(string[] args)
         {
             string x = null;
-            string x2 = x + "teksts"
+            string x2 = x + "teksts";
             Console.WriteLine(x);
             Console.ReadLine();
         }

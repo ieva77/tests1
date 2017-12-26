@@ -6,17 +6,28 @@
         xmlns:local="clr-namespace:Bylist"
         mc:Ignorable="d"
         Title="MainWindow" Height="400" Width="653.947">
-    <Grid>
-        <TextBox HorizontalAlignment="Left" Height="43" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="149" RenderTransformOrigin="1.107,3.618" Margin="99,-234,0,0">
+    <Grid Margin="0,0,-101,-48">
+        <TextBox x:Name="BuyListItemName" HorizontalAlignment="Left" Height="87" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="147" RenderTransformOrigin="1.107,3.618" Margin="88,36,0,0" TextChanged="BuyListItemName_TextChanged">
             <TextBox.RenderTransform>
                 <TransformGroup>
-                    <ScaleTransform ScaleY="-1"/>
+                    <ScaleTransform ScaleY="-1" ScaleX="-1"/>
                     <SkewTransform/>
-                    <RotateTransform/>
+                    <RotateTransform Angle="-180.234"/>
                     <TranslateTransform/>
                 </TransformGroup>
             </TextBox.RenderTransform>
         </TextBox>
+        <Button x:Name="AddListItemButton" Click="AddListItemButton_Click" Content="Pievienot pirkumu" HorizontalAlignment="Left" Margin="282,41,0,0" VerticalAlignment="Top" Width="192" RenderTransformOrigin="0.187,-1.136" Height="83"/>
+        <TextBlock x:Name="BuyItemName" HorizontalAlignment="Left" Margin="94,139,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" RenderTransformOrigin="-0.338,0.197" Height="49" Width="140">
+            <TextBlock.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-1.001"/>
+                    <TranslateTransform X="-0.253" Y="1.33"/>
+                </TransformGroup>
+            </TextBlock.RenderTransform>
+        </TextBlock>
 
     </Grid>
 </Window>
