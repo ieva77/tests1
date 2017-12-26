@@ -16,6 +16,8 @@ using System.Windows.Shapes;
 namespace Buylist01
 {
     using System.Collections.ObjectModel;
+    using System.IO;
+
     /// <summary> 
     /// Interaction logic for MainWindow.xaml
     /// </summary>
@@ -40,6 +42,11 @@ namespace Buylist01
             BuyListItemName.Text = "";
 
             BuyItemsList.Add(enteredItemToBuy);
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            File.WriteAllLines(@"Libraries\Documentsmans_fails.txt", BuyItemsList);
         }
     }
 }

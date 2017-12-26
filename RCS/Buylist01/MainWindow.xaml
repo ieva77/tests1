@@ -6,11 +6,14 @@
         xmlns:local="clr-namespace:Buylist01"
         mc:Ignorable="d"
         Title="MainWindow" Height="350" Width="525">
-    <Grid Background="Aqua">
+    <Grid Background="DarkBlue">
         <TextBox x:Name="BuyListItemName"  HorizontalAlignment="Left" Height="41" Margin="76,62,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="183"/>
         <Button x:Name="AddListItemButton" Click="AddListItemButton_Click" Content="Pievienot pirkumu" HorizontalAlignment="Left" Margin="319,62,0,0" VerticalAlignment="Top" Width="115" Height="41"/>
         <TextBlock x:Name="BuyItemName" HorizontalAlignment="Left" Margin="76,140,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="183" Height="53"/>
-        <ItemsControl x:Name="BuyItemsListControl" Margin="76,209,63,48" />
+        <ScrollViewer RenderTransformOrigin="0.493,1.92" Margin="76,213,246,27">
+            <ItemsControl x:Name="BuyItemsListControl" Width="267"/>
+        </ScrollViewer>
+        <Button Content="Saglabātās lietas" HorizontalAlignment="Left" Margin="392,213,0,0" VerticalAlignment="Top" Width="125" Height="80" Click="Button_Click"/>
 
     </Grid>
 </Window>
