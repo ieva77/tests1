@@ -26,8 +26,6 @@ namespace Bylist
 
             BuyListItemName.Text = "Lūdzu ievadiet pirkumu";
         }
-
-        private void BuyListItemName_TextChanged(object sender, TextChangedEventArgs e)
         {
         }
 

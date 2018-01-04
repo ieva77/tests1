@@ -46,7 +46,6 @@ namespace Buylist01
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            File.WriteAllLines(@"Libraries\Documentsmans_fails.txt", BuyItemsList);
-        }
+            File.WriteAllLines(@"C:\mans_failsigas , BuyItemsList);
     }
 }
